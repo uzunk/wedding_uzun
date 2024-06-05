@@ -1,0 +1,546 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 425px;
+}
+
+body{
+background-color: #ffffff;
+}
+
+@font-face {
+    font-family: 'Cormorant SC';
+    src: local('Cormorant SC Light'), local('CormorantSC-Light'), url('Cormorantsclight.woff2') format('woff2'), url('Cormorantsclight.woff') format('woff'), url('Cormorantsclight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cormorant SC';
+    src: local('Cormorant SC'), local('CormorantSC-Regular'), url('Cormorantsc.woff2') format('woff2'), url('Cormorantsc.woff') format('woff'), url('Cormorantsc.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cormorant SC';
+    src: local('Cormorant SC Book'), local('CormorantSC-Book'), url('Cormorantscbook.woff2') format('woff2'), url('Cormorantscbook.woff') format('woff'), url('Cormorantscbook.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cormorant SC';
+    src: local('Cormorant SC Semibold'), local('CormorantSC-Semibold'), url('Cormorantscsemibold.woff2') format('woff2'), url('Cormorantscsemibold.woff') format('woff'), url('Cormorantscsemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cormorant SC';
+    src: local('Cormorant SC Bold'), local('CormorantSC-Bold'), url('Cormorantscbold.woff2') format('woff2'), url('Cormorantscbold.woff') format('woff'), url('Cormorantscbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'italianno';
+    src: url(./fonts/Italianno-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'vetrino';
+    src: url(./fonts/vetrino.ttf);
+}
+
+@font-face {
+    font-family: 'Perpetua Titling MT';
+    src: url(./fonts/Perpetua-Titling-MT/);
+}
+                                                
+.color{
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+}
+
+.color1{
+    background-color: #F8F4E9;
+}
+.color2{
+    background-color: #EBE4D3;
+}
+.color3{
+    background-color: #E5D8C5;
+}
+.color4{
+    background-color: #DBC1A9;
+}
+.color5{
+    background-color: #AA8A73;
+}
+.color6{
+    background-color: #A48C7D;
+}
+.colors{
+    display: flex;
+}
+.header{
+    display: flex;
+}
+
+.locatioon{
+    font-family: 'Perpetua Titling MT', sans-serif;  
+}
+
+.date-time{
+    font-family: 'vetrino', sans-serif;
+}
+
+.main{
+   background-image: url(./img/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 425px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    max-width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+}
+
+.menu-link{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Cormorant SC';
+    font-weight: 300;
+    font-size: 8px;
+    background-color: #201B17;
+    padding: 5px 5px;
+    border-radius: 7px;
+
+}
+   
+.name{
+    color: #FFFFFF;
+    font-family: 'Perpetua Titling MT', sans-serif;
+    font-weight: 300;
+    font-size: 44px;
+}
+
+.and{
+    color: #FAFAFA;
+    font-family: 'Perpetua Titling MT', sans-serif;
+    font-weight: 300;
+    font-size: 128px; 
+}
+
+.date{
+    color: #FFFFFF;
+    font-family: 'vetrino', sans-serif;
+    font-size: 44px;
+    text-align: center;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+
+.about{
+    max-width: 425px;
+}
+.invitation{
+    position: relative; 
+    height: 200px;
+
+
+    display: flex;
+    justify-content: center;
+}
+
+.gosti{
+    color: #000000;
+    font-family: 'Cormorant SC';
+    font-weight: 500; 
+    text-align: center; 
+    font-size: 50px;   
+    
+    position: absolute;      
+    top: 62px;  
+}
+
+.invitationn{
+    color: #E5E5E5;
+    font-family: 'italianno';
+    font-size: 160px;
+    text-align: center;
+
+    position: absolute;
+    top: -20px;
+}
+
+.we{
+    color: #000000;
+    font-family: 'Cormorant SC';
+    font-weight: 300; 
+    font-size: 12px; 
+    text-align: center; 
+    max-width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: -40px;
+}
+
+.date-time{
+    font-family: 'vetrino', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.time{
+    background-image: url(./img/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+.timing{
+    /* для наложения */
+    position: relative; 
+    height: 200px;
+
+
+    display: flex;
+    justify-content: center;
+}
+
+.timingg{
+    color: #E5E5E5;
+    font-family: 'italianno';
+    font-size: 160px;
+    text-align: center;
+
+    /* для наложения */
+    position: absolute;
+    top: -20px;
+}
+
+
+.vremea{
+    color: #000000;
+    font-family: 'Perpetua Titling MT', sans-serif;
+    font-weight: 300; 
+    text-align: center; 
+    font-size: 50px;  
+    
+    /* для наложения */
+    position: absolute;      
+    top: 62px;             
+}
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    font-family: 'vetrino', sans-serif;
+    font-size: 22px;
+}
+
+.ten{
+    margin-bottom: 30px;
+}
+
+.photoshoot{
+margin-bottom: 15px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Cormorant SC';
+    font-size: 16px; 
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 425px;
+}
+
+.place{
+    max-width: 425px;
+}
+.destination{
+    position: relative; 
+    height: 200px;
+
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.locatioon{
+    color: #000000;
+    font-family: 'Perpetua Titling MT', sans-serif;
+    font-weight: 300; 
+    text-align: center; 
+    font-size: 50px;  
+    position: absolute;      
+    top: 62px;    
+}
+
+.location{
+    color: #E5E5E5;
+    font-family: 'italianno';
+    font-size: 160px;
+    text-align: center;
+    position: absolute;
+    top: -20px;
+}
+
+.position{
+margin-top: -50px;
+}
+.locul{
+    color: #000000;
+    font-family: 'Cormorant SC';
+    font-weight: 300; 
+    font-size: 12px; 
+    text-align: center; 
+
+}
+
+iframe{
+    width: 350px;
+    height: 200px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.dresscode{
+    max-width: 425px;
+    margin-top: 30px;
+}
+
+.dress{
+    position: relative; 
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.code{
+    color: #E5E5E5;
+    font-family: 'italianno';
+    font-size: 160px;
+    text-align: center;
+    position: absolute;
+    top: -20px;
+}
+
+.dresss{
+    color: #000000;
+    font-family: 'Perpetua Titling MT', sans-serif;
+    font-weight: 300; 
+    text-align: center; 
+    font-size: 50px; 
+    position: absolute;      
+    top: 62px; 
+}
+
+.thank{
+    color: #000000;
+    font-family: 'Cormorant SC';
+    font-weight: 300; 
+    font-size: 12px; 
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.colors{
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.details{
+    max-width: 425px;
+    height: 700px;
+    background-image: url(./img/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.item{
+    position: relative; 
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.attribute{
+    color: #000000;
+    font-family: 'Perpetua Titling MT', sans-serif;
+    font-weight: 300; 
+    text-align: center; 
+    font-size: 50px; 
+    position: absolute;      
+    top: 62px;
+}
+
+.partt{
+    color: #E5E5E5;
+    font-family: 'italianno';
+    font-size: 160px;
+    text-align: center;
+    position: absolute;
+    top: -20px;
+}
+
+.contact{
+    font-family: 'Perpetua Titling MT', sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.question{
+    color: #000000;
+    font-family: 'Cormorant SC';
+    font-weight: 300; 
+    font-size: 12px; 
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+.number{
+    font-family: 'vetrino', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+@media (max-width: 1024px){
+    .main{
+        background-image: url(./img/1024/главная.png);
+     }
+     
+     .header{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         padding-top: 40px;
+         max-width: 340px;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: 24px;
+     }
+     
+     .menu-link{
+         color: #FFFFFF;
+         text-decoration: none;
+         font-family: 'Cormorant SC';
+         font-weight: 300;
+         font-size: 8px;
+         background-color: #201B17;
+         padding: 5px 5px;
+         border-radius: 7px;
+     
+     }
+        
+     .name{
+         color: #FFFFFF;
+         font-family: 'Perpetua Titling MT', sans-serif;
+         font-weight: 300;
+         font-size: 44px;
+     }
+     
+     .and{
+         color: #FAFAFA;
+         font-family: 'Perpetua Titling MT', sans-serif;
+         font-weight: 300;
+         font-size: 128px; 
+     }
+     
+     .date{
+         color: #FFFFFF;
+         font-family: 'vetrino', sans-serif;
+         font-size: 44px;
+         text-align: center;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 320px) {
+    .location{
+        display: none;
+    }    
+}
+
+@media (max-width: 320px) {
+    .location{
+        display: none;
+    }    
+}
+
+@media (max-width: 320px) {
+    .location{
+        display: none;
+    }    
+}
+
+@media (max-width: 320px) {
+    .location{
+        display: none;
+    }    
+}
+
+
+
+
+
+@media (max-width: 320px) {
+    .location{
+        display: none;
+    }    
+}
+
+
+
+
+
+
